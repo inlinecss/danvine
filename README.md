@@ -1,2 +1,2 @@
 # danvine 
-websote of portfolio
+website of portfolio
