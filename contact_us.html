@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <title>Contact us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/lightbox.min.css">
+  <link rel="stylesheet" type="text/css" href="css/contact_us.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/responsiveslides.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="./js/responsiveslides.min.js"></script>
+   <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 3
+      $("#slider4").responsiveSlides({
+        auto: true,
+        pager:true,
+        nav: true,
+        speed: 500,
+        namespace: "large-btns"
+      });
+
+    });
+  </script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="image/logo2.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav  navbar-right">
+        <li ><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Corporate <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Company Profile</a></li>
+            <li><a href="#">Client Policy</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Training</a></li>
+         <li><a href="#">Carrier</a></li>
+          <li><a href="#">Contact Us</a></li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>
+
+<section class="banner">
+	<img class="img-responsive" src="./image/bannerpic7.jpg" alt="Contact_us">
+</section>
+<section id="contact-area">
+<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.315282832109!2d77.0421735144331!3d28.47005024816833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x510446fe730709d2!2sDanvine+Technologies+Private+Technologies!5e0!3m2!1sen!2sin!4v1531382240958" style="border:0" allowfullscreen="" width="100%" height="450" frameborder="0">
+	
+</iframe>
+<div class="contact-box">
+            <div class="row" style="">
+			   <div class="col-lg-5">
+                    <div class="contact-us-info">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p> M-4, Second Floor, Sector-14, Near Kalyani Hospital, Old DLF, Gurgaon, 122001</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <p><a id="email" href="amit.jaka@danvinetechnologies.com">danvinetechnologies.com</a></p></li>
+                                  
+                            
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <p>+91-9999386699
+                                    <br>+91-9654745756<br><span style="padding-left:45px;">+91-8287801313</span></p>
+                                   
+                            </li>
+                        </ul>
+                     </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="get-in-touch">
+                        <h3>Get in  Query</h3>
+                        <p>Feel free to contact with us</p>
+                       <form action="form1.php#form1" method="post" id="#form1">
+  <div class="form-group">
+  <input name="name" class="form-control" id="first-name" placeholder="Name" required="required" type="text"> 
+  
+  </div>
+  
+  
+    <div class="form-group">
+   <input name="mobile" class="form-control" id="mobile" placeholder="Mobile" required="required" type="text">
+  </div>
+  
+  
+    <div class="form-group">
+   <input name="email" class="form-control" id="email" placeholder="Email" required="required" type="email"> 
+  </div>
+  
+  <div class="form-group">
+ <textarea rows="4" name="message" class="form-control" id="description" placeholder="Your Message" required="required"></textarea>
+</div>
+<button type="submit" value="Send message" name="submit" class="btn btn-primary" style="background-color:#e61518 !important; border:1px solid #e61518;">Send message</button>
+</div>  
+</form>
+  
+                  
+                
+            </div>
+        </div>
+</section>
+<!-- /*footer  start***************************-->
+<!-- <div class="col-md-12"> -->
+  <div class="footer">
+    <div class="left-footer">
+     <!--  <div class="col-md-12"> -->
+      <div class="left-footer-l">
+      <h3>Services and Products</h3>
+      <ul>
+        <li><a href="#">Development Services</a></li>
+        <li><a href="#">Design Services</a></li>
+        <li><a href="#">IT infrastructure</a></li>
+        <li><a href="#">Engineering & R&D</a></li>
+        <li><a href="#">Lcation based Services</a></li>
+        <li><a href="#">Application Development</a></li>
+
+      </ul>
+    </div>
+  <!-- </div> -->
+    <div class="left-footer-r">
+      <i class="fas fa-home"></i>
+      <h3>Visit Us</h3>
+      <h4>M-4, Second Floor, Sector-14, Near Kalyali Hospital, Old DLF, Gurgoan, 122002</h4>
+      <div class="mail">
+
+      <i class="fas fa-envelope-square"></i>
+
+      <p>info@danvinetechnologies.com</p>
+      <div class="envelope">
+      <i class="fas fa-mobile-alt"></i>
+      <p>91-9821595130</p>
+    </div>
+
+    </div>
+    </div>
+      </div>
+  <div class="right-footer">
+    <div class="right-footer-l">
+    <h3>Quick Link</h3>
+    <ul>
+    <li><a href="#">FAQ</a></li>
+    <li><a href="#">Our Policy</a></li>
+    <li><a href="#">Career With Us</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+
+    </ul>
+  </div>
+  <div class="right-footer-r">
+  <i class="fab fa-facebook-f"></i>
+  <i class="fab fa-linkedin-in"></i>
+  <i class="fab fa-twitter-square"></i>
+  <i class="fab fa-instagram"></i>
+</div>
+  </div>
+  </div>
+  <!-- </div> -->
+</body>
+</html>
